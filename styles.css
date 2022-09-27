@@ -1,0 +1,131 @@
+@import url("https://fonts.google.com/specimen/Montserrat");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/static/Montserrat-Medium.ttf");
+}
+
+* {
+    margin: 0;
+    font-family: Montserrat;
+    background-color: hsl(30, 38%, 92%);
+}
+
+
+/* .main {
+    width: 100%;
+    max-width: 110rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+.container {
+    /* padding: 70px 0; */
+    border: 1px solid hsl(30, 38%, 92%);
+    border-radius: 20px;
+    /* text-align: left; */
+    display: flex;
+    height: 450px;
+    /* width: 50%; */
+    max-width: 100rem;
+    /* margin: 7rem 15rem 9rem 15rem; */
+    margin: 20% 20% 20% 20%;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 10px 10px 90px grey;
+}
+
+.sideImage {
+    height: 500px;
+    width: 50%;
+    border-radius: 20px 0 0 20px;
+}
+
+
+.content {
+    background-color: white;
+    width: 50%;
+    max-width: 100rem;
+    padding: 2rem;
+    
+
+}
+
+
+.preview {
+    margin-bottom: 1rem;
+    color: hsl(228, 12%, 48%);
+    /* letter-spacing: 1px; */
+    background-color: white;
+    font-size: 14px;
+}
+
+.intro {
+    margin-bottom: 1rem;
+    background-color: white;
+    font-family: Fraunces;
+    
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: white;
+    font-weight: 500px;
+}
+
+
+
+.pricees {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%) ;
+    border: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: darkgreen;
+}
+
+h3 {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    background-color: white;
+    padding-top: 12px;
+    padding-left: 2rem;
+    font-size: 14px;
+}
+
+.price1 {
+    background-color: white;
+    color: hsl(158, 36%, 37%);
+    font-family: Fraunces;
+}
+
+.cart {
+    background-color: red;
+    padding-right: 20px;
+}
+
+.mobileImage {
+    display: none;
+}
+
+
