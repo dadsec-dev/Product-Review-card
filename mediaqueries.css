@@ -48,7 +48,7 @@
         color: hsl(228, 12%, 48%);
         /* letter-spacing: 1px; */
         background-color: white;
-        font-size: 14px;
+        font-size: 0.875rem;
     }
     
     .intro {
@@ -60,7 +60,7 @@
     
     p {
         margin-bottom: 1rem;
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 1;
         background-color: white;
         font-weight: 500px;
@@ -80,8 +80,8 @@
         background-color: hsl(158, 36%, 37%);
         color: hsl(0, 0%, 100%) ;
         border: none;
-        width: 250px;
-        height: 40px;
+        width: 15.625rem;
+        height: 2.5rem;
         border-radius: 10px;
     }
     
@@ -106,7 +106,7 @@
     }
     
     .cart {
-        padding-right: 20px;
+        padding-right: 1.25rem;
     }
     
     
